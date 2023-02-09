@@ -26,21 +26,28 @@
 
 
     div.sponsors {
-        font-size:50px;
+        font-size:35px;
         padding-top:10vh;
-        height:100vh;
+        height:115vh;
     }
 
     div.section-spons {
-        margin-left:20vw;
+        margin-left:7vw;
+        height: 40vh;
     }
 
-    li.card img {
-        height:100px;
-        width:100px;
+    div.spons1-img img {
+        height: 50vw;
+        width: 50vw;
     }
 
+    div.spons1-name {
+        font-size: 20px;
+    }
 
+    div.spons-data {
+        font-size: 17px;
+    }
 
 
     div.lg3 {
@@ -106,17 +113,18 @@
     }
 
     div.section-spons {
-        margin-left:25vw;
+        margin-left:12vw;
     }
 
     div.sponsors {
         height:130vh;
     }
 
-    li.card img {
-        height:150px;
-        width:150px;
+    div.spons1-img img {
+        height: 50vw;
+        width: 50vw;
     }
+
 
     div.foot {
         font-size:40px;
@@ -289,37 +297,42 @@
 
 /* ------------------- SECTION 3 -----------------------------------*/
 
-    ul.card-wrapper1{
-        display: flex;
-        height: 10px;
-        width: 10px;
-        margin-left: 25%;
-        margin-top: 10px;
-        padding: 20px;
-        flex-direction:row;
-        justify-content:center;
-    }
-
-    li {
-        list-style: none;
-        margin: 15px;
-    }
-
-    li.card img{
-        height: 250px;
-        width: 250px;
-        border-radius: 50%;
-    }
-
     div.sponsors {
-    height:100vh;
-    font-size:80px;
-    margin-top:10vh;
+        height:100vh;
+        font-size:80px;
+        margin-top:10vh;
     }
 
     div.section-spons {
-    margin-top:10vh;
-    height:60vh;
+        margin-top: 10vh;
+        height: 70vh;
+        width: 49.33vw;
+        float: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    div.spons1-img {
+        width: 49.33vw;
+    }
+
+    div.spons1-img img{
+        height:40vh;
+        width:40vh;
+        border-radius: 50%;
+    }
+
+    div.spons1-name {
+        width: 49.33vw;
+        font-size: 27px;
+        margin-bottom: 5vh;
+    }
+
+    div.spons-data {
+        font-size: 23px;
+        font-family: Arial;
+        padding: 10px;
+        margin: auto;
     }
 
 
@@ -567,7 +580,7 @@
         font-size: 60px;
         text-align: center;
         margin-bottom: 0px;
-        padding-bottom:0px
+        padding-bottom:0px;
         margin-top:5px;
     }
 
@@ -688,8 +701,34 @@
 
 /* ------------------- SECTION 3 -----------------------------------*/
 
+    .spons1-img {
+        width: 80vw;
+    }
+
+    .spons1-img img{
+        height:30vh;
+        width:30vh;
+        border-radius: 50%;
+    }
+
+    .spons1-name {
+        width: 80vw;
+        font-size: 27px;
+        margin-bottom: 5vh;
+    }
+
+    .spons-data {
+        font-size: 23px;
+        font-family: Arial;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+
+
     .sponsors {
-        height:150vh;
+        height:130vh;
         font-size:50px;
         color:#ffffff;
         text-align:center;
@@ -697,38 +736,14 @@
     }
 
     .section-spons{
-        height:80%;
+        height:40%;
         font-size: 40px;
-        margin-left: 50px;
-        margin-top: 0px;
-        margin-left:35vw;
-        margin-right: 30vh;
+        margin-top: 7vh;
+        margin-left:10vw;
+        margin-right: 20vw;
         text-shadow: 1px 1px 2px;
         justify-content: center;
     }
-
-    .card-wrapper1{
-        display: flex;
-        height: 80%;
-        width: 10px;
-        margin-top: 5vh;
-        padding: 20px;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
-
-    li {
-        list-style: none;
-        margin: 15px;
-    }
-
-    .card img{
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-    }
-
-
 
 
 /* ------------------- SECTION 4 -----------------------------------*/
